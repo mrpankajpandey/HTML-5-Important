@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+ <html>
+
+ <head>
+ <title>Title name will go here</title>
+ </head>
+
+ <body>
+	<form onsubmit="return false" oninput="document.getElementById('o').innerHTML = parseFloat(document.getElementById('a').value) +parseFloat(document.getElementById('b').value)">
+
+ <input name="a" id="a" type="number" step="any"> +
+ <input name="b" id="b" type="number" step="any"> =
+ <output name="o" id="o" for="a b"></output>
+
+ </form>
+
+ </body>
+
+ </html>
